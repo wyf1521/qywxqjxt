@@ -29,12 +29,12 @@
 		<script>const 
 			U=new Date(),
 				  UHour=U.getHours(),
-				  a=["吴"],b=["云飞"],
-				  c=[["医院","看病"],["手机店","维修手机"],["电脑城","购买电脑配件"],["电脑城","维修电脑"],["医院","看病"]],x=a=>`${a.getFullYear()}-${("0"+(a.getMonth()+1)).substr(-2)}-${("0"+a.getDate()).substr(-2)}`,
+				  a=["学"],b=["生"],
+				  c=[["徐州百惠医院","胃不太舒服，前去看病"],["华为手机售后店","手机wifi和蓝牙故障，前去维修"],["华硕电脑售后店","购买新硬盘和网卡"],["电脑城","购买电脑配件"],["医院","身体不适，前去看病治疗"]],x=a=>`${a.getFullYear()}-${("0"+(a.getMonth()+1)).substr(-2)}-${("0"+a.getDate()).substr(-2)}`,
 				  d=(U,a,b)=>new Date(new Date(x(U)).getTime()-(1000*60*60*(8+a+Math.random()*(b-a))).toFixed()),y=a=>`${Array.isArray(a)?a[Math.floor(Math.random()*a.length)]:("0".repeat((a+"").length-1)+Math.floor(Math.random()*a)).substr(1-(a+"").length)}`,
 				  e=y([18,19,20]),
-				  f=["22212108"],
-				  g=["18362861660"],
+				  f=["xxxxxxxx"],
+				  g=["00000000000"],
 				  h=y(Array(c.length-1).fill(1).map((x, y)=>x+y)),
 				  o=`${y(a)}${y(b)}`,
 				  z=UHour<9?d(U,2,15):U;
@@ -78,14 +78,14 @@
 <b>已通过</b>
 			</div></td></tr><tr class="a">
 <td class="b">
-<div align="center">审核人：${y(["宋慧璐"])}
+<div align="center">审核人：${y(["王大爹"])}
 			</div></td></tr>
 <tr class="a"><td class="b">
 <div align="center">审核时间：${x(z)}</div></td></tr>
 <tr class="c"><td height="16" class="d"><strong>个人信息</strong></td></tr>
 <tr class="a"><td class="b"><div align="center"><span class="g">*</span>学号：${f}</div></td></tr>
 <tr class="a"><td class="b"><div align="center"><span class="g">*</span>姓名：${o}</div></td></tr>
-<tr class="a"><td class="b"><div align="center"><span class="g">*</span>单位(班级)：${y(["嵌入式"])}${21}-${y([1])}班</div></td></tr>
+<tr class="a"><td class="b"><div align="center"><span class="g">*</span>单位(班级)：${y(["!!!"])}${!!}-${y([!])}班</div></td></tr>
 <tr class="a"><td class="b"><div align="center"><span class="g">*</span>性别：男</div></td></tr>
 <tr class="a"><td class="b"><div align="center"><span class="g">*</span>本人手机号：${g}</div></td></tr>
 <tr class="c"><td height="16" class="d"><strong>申请内容</strong></td></tr>
